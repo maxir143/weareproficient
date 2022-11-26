@@ -1,0 +1,16 @@
+.navbar-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #FD9255; 
+}
+
+.navbar {
+  width: 1145px;
+  height: 138px;
+  display: inline-grid;
+  background-color: aqua;
+}
