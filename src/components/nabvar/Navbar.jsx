@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return(
     <div className='navbar'> 
-      <img src={navLogo.src} alt={navLogo.alt} />
+      <img className='navbar-logo' src={navLogo.src} alt={navLogo.alt} />
       <ul className='navbar-items'>
         {navItems.map(({title}, index)=><li className='navbar-item' key={index}>{title}</li>)}
       </ul>
