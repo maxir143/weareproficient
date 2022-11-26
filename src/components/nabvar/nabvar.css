@@ -5,6 +5,7 @@
   top: 0px;
   left: 0px;
   width: 100vw;
+  height: 138px;
   margin: 0;
   padding: 0;
   background-color: #FD9255; 
@@ -14,12 +15,11 @@
 
 .navbar {
   width: min(1145px, 100vw);
-  height: 138px;
   display: inline-grid;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 100px;
+  margin-left: 100px;
 }
 .navbar-logo{
   width: 97px;

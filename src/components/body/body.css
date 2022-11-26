@@ -1,0 +1,80 @@
+.body-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 138px;
+  width: 100vw;
+}
+
+.title{
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.title > h1{
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.title > p{
+  font-size: 16px;
+  max-width: 456px;
+  margin-inline: auto;
+}
+
+.store-items{
+  display: flex;
+  flex-wrap: wrap;
+  width: min(1275px, 100vw);
+  gap: 35px;
+}
+
+.store-container > .btn-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.store-container > .btn-container > button{
+  width: 200px;
+  height: 60px;
+  border: 2px solid #FD9255;
+  background-color: transparent;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+}
+
+.store-container > .btn-container > button:hover{
+  background-color: #FD9255;
+}
+
+.summary-container{
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(415px, 100vw);
+  margin-bottom: 100px;
+}
+
+.summary-container > h2{
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.summary-table{
+  background-color: #F9F9F9;
+  padding: 35px;
+  width: 75%;
+  font-size: 16px;
+  text-align: left;
+}
+
+.summary-table > li{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 25px;
+}
