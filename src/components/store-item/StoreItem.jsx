@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import { useCart } from '../../context/dataContext'
 import './store-item.css'
 
 export default function StoreItem({item}){
   const {title, icon} = item
-  const [count, setCount] = useState(0)
+  const {items, addItem, removeItem} = useCart()
 
-  const handleAdd = () => setCount((currCount) => Math.max(0, currCount += 1))
-  const handleRemove = () => setCount((currCount) => Math.max(0, currCount -= 1))
+  const count = items[title] || 0
+
   return(
     <div className='item'>
       <div className='card'>
@@ -14,9 +14,9 @@ export default function StoreItem({item}){
         <p >{title}</p>
       </div>
       <div className='btn-container'>
-        <button onClick={handleRemove} className='minus'>-</button>
+        <button onClick={()=>removeItem(item)} className='minus'>-</button>
         <p className='count'>{count}</p>
-        <button onClick={handleAdd} className='plus'>+</button>
+        <button onClick={()=>addItem(item)} className='plus'>+</button>
       </div>
     </div>
   )
