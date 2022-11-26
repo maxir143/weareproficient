@@ -1,4 +1,5 @@
 
+import MobileNavbar from './MobileNavbar'
 import './nabvar.css'
 export default function Navbar() {
   const navItems = [
@@ -16,7 +17,7 @@ export default function Navbar() {
     },
   ]
   const navLogo = {
-    src: '/public/icons/cil_house.png',
+    src: '/icons/cil_house.png',
     alt: 'main logo'
   }
 
@@ -26,6 +27,7 @@ export default function Navbar() {
       <ul className='navbar-items'>
         {navItems.map(({title}, index)=><li className='navbar-item' key={index}>{title}</li>)}
       </ul>
+      <MobileNavbar items={navItems} />
     </div>
   )
 }

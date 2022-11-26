@@ -13,7 +13,7 @@ export function DataProvider({children}){
     {
       title: 'Beds',
       icon: {
-        src: '/public/icons/bed.png',
+        src: '/icons/bed.png',
         alt: 'bed'
       },
       size: 1.2
@@ -21,7 +21,7 @@ export function DataProvider({children}){
     {
       title: 'Refrigerador',
       icon: {
-        src: '/public/icons/refridegator.png',
+        src: '/icons/refridegator.png',
         alt: 'bed'
       },
       size: 1
@@ -29,7 +29,7 @@ export function DataProvider({children}){
     {
       title: 'Furniture',
       icon: {
-        src: '/public/icons/furniture.png',
+        src: '/icons/furniture.png',
         alt: 'bed'
       },
       size: 0.5
@@ -37,7 +37,7 @@ export function DataProvider({children}){
     {
       title: 'Oven',
       icon: {
-        src: '/public/icons/oven.png',
+        src: '/icons/oven.png',
         alt: 'bed'
       },
       size: 0.6
@@ -45,7 +45,7 @@ export function DataProvider({children}){
     {
       title: 'Sofa',
       icon: {
-        src: '/public/icons/sofa.png',
+        src: '/icons/sofa.png',
         alt: 'bed'
       },
       size: 1.2
@@ -53,7 +53,7 @@ export function DataProvider({children}){
     {
       title: 'TV',
       icon: {
-        src: '/public/icons/tv.png',
+        src: '/icons/tv.png',
         alt: 'bed'
       },
       size: 0.25
@@ -61,7 +61,7 @@ export function DataProvider({children}){
     {
       title: 'Washer-dryer',
       icon: {
-        src: '/public/icons/washer-dryer.png',
+        src: '/icons/washer-dryer.png',
         alt: 'bed'
       },
       size: 0.5
@@ -69,7 +69,7 @@ export function DataProvider({children}){
     {
       title: 'Dining',
       icon: {
-        src: '/public/icons/dining.png',
+        src: '/icons/dining.png',
         alt: 'bed'
       },
       size: 2
@@ -77,7 +77,7 @@ export function DataProvider({children}){
     {
       title: 'Desk',
       icon: {
-        src: '/public/icons/desk.png',
+        src: '/icons/desk.png',
         alt: 'bed'
       },
       size: 0.75
@@ -85,7 +85,7 @@ export function DataProvider({children}){
     {
       title: 'Wardrobe',
       icon: {
-        src: '/public/icons/wardrobe.png',
+        src: '/icons/wardrobe.png',
         alt: 'bed'
       },
       size: 3.2
