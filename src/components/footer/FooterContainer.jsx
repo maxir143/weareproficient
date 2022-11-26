@@ -1,7 +1,7 @@
 
 import './footer.css'
 export default function FooterContainer({children}) {
-  return(
+  return (
     <div className="footer-container">{children}</div>
   )
 }

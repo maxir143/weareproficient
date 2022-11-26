@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { useCart } from "../../context/dataContext"
+import './summary.css'
 
 export default function Summary(){
   const {summaryData, calculateSummary, items} = useCart()

@@ -13,14 +13,18 @@
 }
 
 .footer{
-  width: min(1120px, 100vw);
-  display: inline-grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  width: min(calc(1275px - 80px), calc(100vw - 80px));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
   color: #fff;
+  margin-inline: 40px;
 }
 
 .footer-col{
   font-size: 16px;
+  word-wrap: break-word;
 }
 
 .social-container{
@@ -42,7 +46,11 @@
 }
 
 .footer-col:first-child{
-  margin-right: 25%;
+  width: min(320px, 75%);
+}
+
+.footer-col > p {
+  max-width: 100%;
 }
 
 .footer-col > h3{
@@ -50,14 +58,12 @@
   font-size: 24px;
   padding-bottom: 20px;
   margin: 0;
-  margin-left: 40px;
 }
 
 .footer-col > ul, h3{
   list-style: none;
   padding-inline: 0;
   line-height: 45px;
-  margin-left: 40px;
 }
 
 .footer-col > ul > li{

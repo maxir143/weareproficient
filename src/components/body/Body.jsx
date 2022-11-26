@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useCart } from '../../context/dataContext'
 import StoreItemContainer from '../store-item/StoreItemContainer'
 import Summary from '../summary/Summary'
