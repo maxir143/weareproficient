@@ -1,10 +1,6 @@
 import { useState } from 'react'
-
-
-
 export default function MobileNavbar({items}){
   const [open, setOpen] = useState(false)
-
   const MobileMenu = (items) => {
     return(
       <div className='mobile-menu'>
@@ -15,7 +11,6 @@ export default function MobileNavbar({items}){
       </div>
     )
   }
-
   return (
     open 
     ? MobileMenu(items) 

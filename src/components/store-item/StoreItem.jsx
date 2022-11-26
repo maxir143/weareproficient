@@ -1,12 +1,9 @@
 import { useCart } from '../../context/dataContext'
 import './store-item.css'
-
 export default function StoreItem({item}){
   const {title, icon} = item
   const {items, addItem, removeItem} = useCart()
-
   const count = items[title] || 0
-
   return(
     <div className='item'>
       <div className='card'>

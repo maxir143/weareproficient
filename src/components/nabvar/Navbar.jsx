@@ -20,7 +20,6 @@ export default function Navbar() {
     src: '/icons/cil_house.png',
     alt: 'main logo'
   }
-
   return(
     <div className='navbar'> 
       <img className='navbar-logo' src={navLogo.src} alt={navLogo.alt} />

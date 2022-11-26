@@ -18,7 +18,6 @@ export default function Body() {
         </div>
         <Summary />
       </div>
-
     </div>
   )
 }
