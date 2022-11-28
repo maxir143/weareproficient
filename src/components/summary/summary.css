@@ -1,5 +1,4 @@
 .summary-container{
-  margin-inline: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +13,7 @@
 .summary-table{
   background-color: #F9F9F9;
   padding: 35px;
-  width: 75%;
+  width: max(25vw, 320px - calc(35px * 2));
   font-size: 16px;
   text-align: left;
 }
