@@ -68,6 +68,6 @@
   }
 }
 
-.store-container > .btn-container > button:hover{
+.store-container > .btn-container > button:hover, button:active{
   background-color: #FD9255;
 }
